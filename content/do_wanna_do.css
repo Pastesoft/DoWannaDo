@@ -1,0 +1,100 @@
+﻿body
+{
+	background-color: #FFFBEA;
+	font-family: 'Segoe WP';
+	margin:0 auto;
+	width:1220px;
+}
+
+article, aside, header, nav, section, figure, footer, div
+{
+	display: block;
+}
+
+#head
+{
+	max-width:1220px;
+	min-width:720px;
+	margin:0 auto;
+	height:auto;
+	/*border:1px solid blue;*/
+}
+
+header #dwd
+{
+    height:120px;
+    width:400px;
+    /*border:1px solid saddlebrown;*/
+}
+
+header a img
+{
+    width:30px;
+    height:30px;
+    border:none;
+}
+
+aside
+{
+    float: right;
+    margin-top: 105px;
+    margin-right: 25px;
+    color: #2A3887;
+    font-family: 'Times New Roman' , Times, serif;
+    cursor:pointer;
+}
+
+aside span:hover
+{
+    font-weight:bold;
+}
+
+section
+{
+	max-width: 1220px;
+	min-width:890px;
+    /*border: 1px solid green;*/
+    margin: 0 auto;
+    position: relative;
+    border-top-style: groove;
+    border-top-width: medium;
+    border-top-color:red;
+
+}
+
+@font-face {
+    font-family: 'SnapITCRegular';
+    src: url('snap____-webfont.eot');
+    src: url('snap____-webfont.eot?#iefix') format('embedded-opentype'),
+         url('snap____-webfont.woff') format('woff'),
+         url('snap____-webfont.ttf') format('truetype'),
+         url('snap____-webfont.svg#SnapITCRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+    @font-face {
+    font-family: 'BrushScriptMTItalic';
+    src: url('brushsci-webfont.eot');
+    src: url('brushsci-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brushsci-webfont.woff') format('woff'),
+         url('brushsci-webfont.ttf') format('truetype'),
+         url('brushsci-webfont.svg#BrushScriptMTItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+figure
+{
+	width:200px;
+	margin:0 auto;
+}
+
+footer
+{
+	max-width: 1220px;
+	min-width:890px;
+	padding-top:70px;
+	margin:0 auto;
+	text-align:center;
+}
